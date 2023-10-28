@@ -1,0 +1,23 @@
+# I have added a movie and another adjective, creating more story as well in order to make it funnier. 
+
+print("Welcome to Mad Libs Word Games!!")
+print("Please, insert the following information:")
+adjective = input("Choose an adjective:")
+animal = input("Now, choose your favorite animal (or the one you hate the most, it's up to you haha):")
+verb1 = input("Choose the first verb:")
+exclamation = input("What do you say when you forget something very important? Write here an exclamation:")
+verb2 = input("Choose now, a second verb:")
+Movie = input("Write here your favorite movie's name:")
+adjetive2 = input("Think of a funny adjective here:")
+verb3 = input("The last one: choose a verb that you don't use very often:")
+print(" ")
+print("Your story is...")
+print(" ")
+print("The other day, I was really in trouble. It all started when I saw a very")
+print(adjective.lower() + " " + animal.lower() + " " + verb1.lower() + " down the hallway. It was the very first time. I was scared. ")
+print(exclamation.capitalize() +"! I yelled. But all I could think to do was ")
+print("to " + verb2.lower() +" over and over.I have seen the same tragedy to happen in " + Movie.title() + "'s Movie. Miraculously,")
+print("that caused it to stop, but not before it tried to " + verb3.lower())
+print("right in front of my family. They looked at me, and told me I was " + adjetive2.lower() + ". They may be right.")
+print(" ")
+
