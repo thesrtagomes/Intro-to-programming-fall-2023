@@ -1,3 +1,6 @@
+# I have added an option to ask if the user would like to donate for charity or not.
+#I didn't use while but I have used if, elif and else
+
 childs_meal = float(input("What is the price of a child's meal? "))
 adults_meal = float(input("What is the price of an adult's meal? "))
 number_children = int(input('How many children are there? '))
