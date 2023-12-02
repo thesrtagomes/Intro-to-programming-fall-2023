@@ -1,3 +1,6 @@
+# I showed the game to my mom and boyfriend. My mother has no idea of how coding works, so she played (with me translating) and after that I shoed the code.
+# My boyfriend is a senior developer, so he took a look and played with me. He always gives me courage to keep learning.
+
 print("Welcome to our Adventure Game!")
 print(" ")
 print(
