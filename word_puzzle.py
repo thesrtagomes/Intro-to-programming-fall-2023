@@ -10,7 +10,7 @@ print(
 print('')
 possible_words = ['brigadeiro', 'pastel', 'hotdog', 'sorvete', 'chocolate']
 secret_word = random.choice(possible_words)
-word = "_" * len(secret_word)
+word = "_ " * len(secret_word)
 print(f"Your hint is: {word}")
 guess = str(input("What is your guess? "))
 attempts = 1
@@ -23,11 +23,11 @@ while guess.lower() != secret_word:
     else:
         for i, guess_letter in enumerate(guess.lower()):
             if guess_letter == secret_word[i]:
-                print(guess_letter.upper(), end="")
+                print(f'{guess_letter.upper()} ', end="")
             elif guess_letter in secret_word:
-                print(guess_letter.lower(), end="")
+                print(f'{guess_letter.lower()} ', end="")
             else:
-                print("_", end="")
+                print("_ ", end="")
     print("")
     guess = str(input("What is your guess? "))
 print("Congratulations! you guessed it!")
